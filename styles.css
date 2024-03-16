@@ -1,0 +1,36 @@
+#lawnCanvas {
+    width: 500px;
+    height: 500px;
+    position: relative;
+    margin: 2em;
+    border: 1px solid black;
+    /* Add border to represent the canvas */
+}
+
+.lawn-square {
+    width: 10px;
+    height: 10px;
+    float: left;
+}
+
+.lawn-mower {
+    width: 10px;
+    height: 10px;
+    background-color: black;
+    /* Couleur de la tondeuse */
+    position: absolute;
+}
+
+/* Style pour les cases coupées */
+.cut {
+    background-color: #b7e0b2;
+    /* Couleur de fond pour les cases coupées */
+}
+
+#stats {
+    margin-top: 20px;
+}
+
+#stats p {
+    margin: 5px 0;
+}
